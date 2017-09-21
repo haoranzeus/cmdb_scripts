@@ -45,7 +45,7 @@ do
         return 2
     fi
     # 开始执行创建
-    # ssh root@$c_sip < $vm_creater
+    ssh root@$c_sip < $vm_creater
     # ssh zhr@192.168.5.213 < /tmp/test.sh
     if [ $? -ne 0 ]
     then
