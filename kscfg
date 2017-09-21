@@ -1,3 +1,3 @@
-BASIC-SERVER-043    172.23.242.60 vhost.testpf.quality    4   8192    200 centos6.7   172.23.27.78    255.255.255.0   172.23.27.1 donetodolalala vg0 br27 1 done
-BASIC-SERVER-043    172.23.242.61   vhost.testpf.quality    4   8192    200 centos6.7   172.23.27.78    255.255.255.0   172.23.27.1 donetodolalala vg0 br27 2 todo
-BASIC-SERVER-043    172.23.242.62   vhost.testpf.quality    4   8192    200 centos7.3   172.23.27.78    255.255.255.0   172.23.27.1 donetodolalala vg0 br27 3 todo
+BASIC-SERVER-043    172.23.242.60 vhost.testpf.quality1    4   8192    200 centos6.7   172.27.11.245    255.255.255.0   172.23.27.1 donetodolalala vg0 br27 红山-开发测试 1 done
+BASIC-SERVER-043    172.23.242.61   vhost.testpf.quality2    4   8192    200 centos6.7   172.27.11.246    255.255.255.0   172.23.27.1 donetodolalala vg0 br27 红山-开发测试 2 done
+BASIC-SERVER-043    172.23.242.62   vhost.testpf.quality3    4   8192    200 centos7.3   172.27.11.247    255.255.255.0   172.23.27.1 donetodolalala vg0 br27 红山-开发测试 3 done

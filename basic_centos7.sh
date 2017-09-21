@@ -3,7 +3,7 @@ if [ ! -d /var/www/html/ks/BASIC ]
 then
     mkdir /var/www/html/ks/BASIC
 fi
-ks_path="/var/www/html/ks/BASIC/"
+# ks_path="/var/www/html/ks/BASIC/"
 
 work_path=$1
 c1=$2           # 物理机
@@ -14,18 +14,13 @@ c5=$6           # 内存(M)
 c6=$7           # 系统磁盘空间(G)
 c7=$8           # 系统版本
 c8=$9           # ip地址
-c9=${10}           # 掩码
+c9=${10}        # 掩码
 c10=${11}       # 网关
 c11=${12}       # 密码
 c12=${13}       # 所属raid
 c13=${14}       # 所属网段
 c14=${15}       # 实例id
 
-# TODO (delete)
-echo $work_path
-echo $c1 $c2 $c3 $c4 $c5 $c6 $c7 $c8 $c9 $c10 $c11 $c12 $c13 $c14
-
-# TODO (delete end)
 
 echo "install" > $work_path/$c3
 echo "auth --enableshadow --enablemd5" >> $work_path/$c3
